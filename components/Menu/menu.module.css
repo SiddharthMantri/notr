@@ -1,0 +1,7 @@
+.menu-wrapper {
+  align-items: flex-start;
+  min-width: 240px;
+  max-width: 240px;
+  height: 100vh;
+  background: #1d1f21;
+}

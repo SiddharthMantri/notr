@@ -1,0 +1,8 @@
+.notes-list {
+  align-items: flex-start;
+  min-width: 350px;
+  max-width: 350px;
+  height: 100vh;
+  background: white;
+  border-right: 1px solid #333;
+}
