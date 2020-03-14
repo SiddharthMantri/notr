@@ -4,5 +4,22 @@
   max-width: 350px;
   height: 100vh;
   background: white;
-  border-right: 1px solid #333;
+  border-right: 1px solid #ececec;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: scroll;
+}
+
+.title {
+  padding: 16px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 1);
+  box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 1);
+  border-bottom: 1px solid #ececec;
+  font-family: "Roboto Slab", serif;
+}
+.title h3 {
+  font-size: 18px;
 }

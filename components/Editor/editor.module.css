@@ -1,0 +1,64 @@
+.editor-main {
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.actions {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  border-bottom: 1px solid #ececec;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 1);
+  box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 1);
+  border-bottom: 1px solid #ececec;
+}
+.action-group {
+  align-items: flex-start;
+  border-right: 1px solid #ececec;
+  padding: 0px 8px 0px 8px;
+}
+.action-group button {
+  align-items: flex-start;
+  color: black;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  border-radius: 4px;
+}
+.action-group button:hover {
+  background: #ececec;
+}
+.action-group svg {
+  height: 12px;
+}
+.editor {
+  outline: 0px solid transparent;
+  width: 100%;
+  height: calc(100vh - 100px);
+  max-height: calc(100vh - 100px);
+  overflow-y: scroll;
+  padding: 16px;
+  font-size: 14px;
+}
+.editor b {
+  font-weight: bold;
+}
+.editor i {
+  font-style: italic;
+}
+.editor u {
+  text-decoration: underline;
+}
+.save-group {
+  border-right: none !important;
+}
+.save-button {
+  padding: 8px;
+  border-radius: 4px;
+  background: #34495e;
+  color: white !important;
+}
+.save-button:hover {
+  background: #34495e !important;
+}

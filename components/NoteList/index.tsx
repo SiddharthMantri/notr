@@ -5,9 +5,14 @@ import NoteItem from "../NoteItem";
 
 const NotesList = ({ notes }: { notes: Notes }) => (
   <div className={styles["notes-list"]}>
-    {notes.map((note, i) => (
-      <NoteItem key={i} {...note} />
-    ))}
+    <div className={styles["wrapper"]}>
+      <div className={styles["title"]}>
+        <h3>Notes</h3>
+      </div>
+      {notes.map((note, i) => (
+        <NoteItem key={i} {...note} />
+      ))}
+    </div>
   </div>
 );
 
