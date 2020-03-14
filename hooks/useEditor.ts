@@ -6,14 +6,15 @@ import {
   SetStateAction
 } from "react";
 
+type Actions = {
+  bold: () => void;
+  italic: () => void;
+  underline: () => void;
+};
+
 const useEditor = <T>(
   editorText: T | (() => T)
-): [
-  RefObject<any>,
-  T,
-  Dispatch<SetStateAction<T>>,
-  { bold: () => void; italic: () => void; underline: () => void }
-] => {
+): [RefObject<any>, T, Dispatch<SetStateAction<T>>, Actions] => {
   const container = createRef();
   const [text, setText] = useState(editorText);
   const actions = {

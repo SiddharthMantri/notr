@@ -6,7 +6,7 @@ const App = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
       <link
-        href="https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro&display=swap"
+        href="https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro:400,600,700&display=swap"
         rel="stylesheet"
       />
     </Head>

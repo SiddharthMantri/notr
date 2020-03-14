@@ -10,7 +10,8 @@
   -webkit-box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 1);
   -moz-box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 1);
   box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 1);
-  border-bottom: 1px solid #ececec;
+  box-sizing: border-box;
+  justify-content: space-between;
 }
 .action-group {
   align-items: flex-start;
@@ -30,7 +31,7 @@
   background: #ececec;
 }
 .action-group svg {
-  height: 12px;
+  height: 20px;
 }
 .editor {
   outline: 0px solid transparent;
@@ -42,7 +43,7 @@
   font-size: 14px;
 }
 .editor b {
-  font-weight: bold;
+  font-weight: 700;
 }
 .editor i {
   font-style: italic;
@@ -52,12 +53,14 @@
 }
 .save-group {
   border-right: none !important;
+  align-items: flex-end;
 }
 .save-button {
   padding: 8px;
   border-radius: 4px;
   background: #34495e;
   color: white !important;
+  
 }
 .save-button:hover {
   background: #34495e !important;
